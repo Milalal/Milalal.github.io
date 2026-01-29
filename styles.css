@@ -4,3 +4,34 @@ html{
     margin: 0;
 }
 
+body{
+    background-color: rgb(234, 82, 111);
+    margin: 0px;
+}
+
+.rectangle-container {
+    display: flex; /* Arranges rectangles horizontally */
+    gap: 100px;      /* Adds space between the rectangles */
+}
+
+.rectangle {
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+}
+
+.orange-box {
+    background-color: #f1a554;
+}
+
+.textbox{
+    padding: 10px 20px;
+    flex: 1;
+    
+}
+
+.pink-textbox {
+    background-color: #e76b74;
+    width: 100px;
+    height: 100px;
+}
