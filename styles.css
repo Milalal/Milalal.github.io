@@ -1,37 +1,111 @@
 html{
     font-family: serif;
-    background: rgb(255, 241, 219);
-    margin: 0;
+    background: #413853;
 }
 
 body{
-    background-color: rgb(234, 82, 111);
     margin: 0px;
 }
 
-.rectangle-container {
-    display: flex; /* Arranges rectangles horizontally */
-    gap: 100px;      /* Adds space between the rectangles */
+.main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 40px;
 }
 
-.rectangle {
-    width: 100px;
-    height: 100px;
+.main-wrapper2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
     padding: 50px;
 }
 
-.orange-box {
-    background-color: #f1a554;
+.main-wrapper3 {
+    display: flex;
+    padding: 50px;
 }
 
-.textbox{
-    padding: 10px 20px;
-    flex: 1;
-    
+.side-image {
+    width: 400px;
+    height: auto;
+    padding: 0px;
 }
 
-.pink-textbox {
-    background-color: #e76b74;
-    width: 100px;
+.side-image2 {
+    width: 800px;
+    height: auto;
+    padding: 20px;
+    margin-left: 80px;
+    border:#ffffff;
+}
+
+.content-box {
+    width: 500px;
+    height: 500px;
+    padding: 0px;
+    background-color: transparent; 
+    font-family: Titan one;
+    line-height: 1.7;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+
+
+.content-box2 {
+    width: 200px;
     height: 100px;
+    padding: 0px;
+    background-color: transparent; 
+    font-family: Titan one;
+    line-height: 1.6;
+    font-size: 20px;
+    color: #ffffff;
 }
+
+.content-box3 {
+    width: 900px;
+    height: 100px;
+    padding: 10px;
+    background-color: transparent; 
+    font-family: Titan one;
+    font-size: 40px;
+    color: #ffffff;
+    margin-left: 325px;
+}
+
+.content-box4 {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background-color: transparent; 
+    font-family: Titan one;
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+
+.gallery-wrapper {
+    display: flex;
+    justify-content: flex-start; 
+    gap: 20px;                   
+    padding: 80px;               
+}
+
+.gallery-img {
+    width: 300px;               
+    height: auto;
+    border: 2px solid transparent;
+    transition: transform 0.3s, border 0.3s;
+    float: left;
+}
+
+
+.gallery-img:hover {
+    transform: scale(1.3);
+}
+
+
+
